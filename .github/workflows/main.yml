@@ -19,4 +19,4 @@ jobs:
     - name: Run Yarn 
       run: yarn
     - name: Run tests
-      run: yarn test
+      run: yarn test --detectOpenHandles
