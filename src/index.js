@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello CI/CD Pipeline!" });
+  res.json({ message: "Hello this is a CI/CD Pipeline!" });
 });
 
 const PORT = process.env.PORT || 3000;
